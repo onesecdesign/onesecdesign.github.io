@@ -15,7 +15,7 @@ const testimonialBoxes = document.querySelectorAll('.testimonial');
 const ctaButton = document.querySelector('.cta');
 
 ctaButton.addEventListener('click', () => {
-  const contactSection = document.querySelector('#contact-info');
+  const contactSection = document.querySelector('#how-to');
   if (contactSection) {
     contactSection.scrollIntoView({ behavior: 'smooth' });
   }
